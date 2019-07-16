@@ -1,0 +1,16 @@
+.cate {
+  position: relative;
+  .cate_item {
+    display: flex;
+    flex-direction: column;
+    width: 100PX;
+    font-size: 14PX;
+    height: 50PX;
+    line-height: 50PX;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  .cate_item_current {
+    color: rgb(230, 165, 26);
+  }
+}
