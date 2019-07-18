@@ -1,0 +1,22 @@
+.foodList_item {
+  display: flex;
+  flex-direction: row;
+  padding:10PX;
+  .foodList_pic {
+    width: 80PX;
+    height: 80PX;
+    border-radius: 5PX;
+  }
+  .foodList_info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14PX;
+    margin-left: 10PX;
+    height: 80PX;
+    justify-content: space-between;
+    .price {
+      color: red;
+      font-weight: 700;
+    }
+  }
+}
